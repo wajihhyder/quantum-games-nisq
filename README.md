@@ -7,6 +7,17 @@ A simulation of quantum game theory on Noisy Intermediate-Scale Quantum (NISQ) d
 
 The project replicates and extends the work of Díaz Agreda et al., *"Bridging Theory and Practice in Quantum Game Theory: Optimized Implementation of the Battle of the Sexes with Error Mitigation on NISQ Hardware"*, IEEE Chilecon 2023. Original code: [github.com/Carlosandp/GCMStrategy](https://github.com/Carlosandp/GCMStrategy)
 
+## Results at a glance
+
+| Battle of the Sexes | Prisoner's Dilemma (extension) |
+|---|---|
+| ![BoS RMSE: with vs without GCM](BoS/graphs/fig_rmse_comparison.png) | ![PD RMSE: with vs without GCM](PD/graphs/fig_rmse_comparison.png) |
+
+Guided Circuit Mapping (GCM) lowers payoff RMSE by **35–45%** (Battle of the Sexes)
+and **12–46%** (Prisoner's Dilemma); every reduction is statistically significant
+(paired t-test, p < 10⁻⁷ for BoS, p < 0.01 for PD).
+
+![20 runs with GCM](BoS/graphs/fig9_multiple_runs.png)
 ---
 
 ## Game Theory
