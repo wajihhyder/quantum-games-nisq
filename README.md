@@ -1,4 +1,9 @@
 # quantum-games-nisq
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)
+![Qiskit](https://img.shields.io/badge/Qiskit-Aer-6929C4?logo=qiskit&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-stats-8CAAE6?logo=scipy&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Reproducible](https://img.shields.io/badge/results-reproducible%20(seeded)-success)
 
 A simulation of quantum game theory on Noisy Intermediate-Scale Quantum (NISQ) devices. This project takes two classic strategic decision-making games, the Battle of the Sexes and the Prisoner's Dilemma, runs them through a quantum computing framework, and shows that quantum strategies consistently outperform their classical counterparts, even in the presence of realistic hardware noise. It also includes a full IEEE conference paper.
 
